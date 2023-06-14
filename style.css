@@ -1,0 +1,20 @@
+h1{
+    color:lightskyblue;
+    text-align: center;
+    font: 40px;
+}
+
+img{
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+#box1{
+    border: 5px dashed blue;
+    border-radius: 20px;
+
+}
+
+.box2{
+    color: hotpink
+}

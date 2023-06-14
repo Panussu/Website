@@ -1,14 +1,11 @@
+<link rel="stylesheet" href="style.css" />
 <?php
-  echo "<h1> welcome to Website </h1>";
-  
-  echo "<a href='login.php'> Login </a>";
-  echo "<a href='Contact.php'> Contact us </a> |";
-  
+    $name = "Panus Toopanich";
+    $age = 17;
+    $year = 2548;
+    $byear = $year - $age;
 
-
-  echo "<br/><br/>";
-  echo "<font size = '20px' >Hello World </font><br/>";
-  echo "Made by Panus Toopanich";
-
-
-?>
+    echo "<h1> welcome </h1>";
+    echo "Made by $name <br/>";
+    echo "Birth Year $byear";
+    
